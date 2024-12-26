@@ -1,5 +1,5 @@
 const home = async (req, res) => {
-	res.render('index', { title: 'HOLA :)' });
+	res.render('layout', { title: 'HOLA :)' });
 };
 
 module.exports = {
