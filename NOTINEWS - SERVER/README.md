@@ -25,3 +25,11 @@
 > `views`
 
     Carpeta que almacena las plantillas de vistas
+
+## Iniciar la aplicación
+
+```bash
+npm start
+```
+
+Con este comando se levantará el servidor en el puerto 3000 por defecto (`http://localhost:3000`)

@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const logger = require('morgan');
+const router = require('./routes/index');
 
 /**
  * @description
@@ -24,8 +25,6 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
 // Rutas
-app.get('/', (req, res) => {
-	res.render('index', { title: 'NotifasNews' });
-});
+app.use('/', router);
 
 module.exports = app;
