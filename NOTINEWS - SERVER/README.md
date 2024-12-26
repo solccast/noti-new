@@ -21,3 +21,7 @@
 > `bin/`
 
     Carpeta destinada a scripts ejecutables
+
+> `views`
+
+    Carpeta que almacena las plantillas de vistas

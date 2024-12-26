@@ -9,6 +9,10 @@ const logger = require('morgan');
  */
 const app = express();
 
+// Configuración de la vista
+app.set('view engine', 'ejs');
+app.set('views', path.join(__dirname, 'views'));
+
 // Middleware para servir archivos estáticos
 app.use(express.static(path.join(__dirname, 'public')));
 
@@ -21,7 +25,7 @@ app.use(express.urlencoded({ extended: false }));
 
 // Rutas
 app.get('/', (req, res) => {
-	res.send('Hello World!');
+	res.render('index', { title: 'NotifasNews' });
 });
 
 module.exports = app;
