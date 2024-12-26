@@ -11,5 +11,8 @@
     "url": "github.com/solccast/noti-new"
   },
   "author": "Sol Angela Chilaca Castro [solccastro@gmail.com]",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
