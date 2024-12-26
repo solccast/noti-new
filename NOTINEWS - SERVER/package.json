@@ -1,0 +1,15 @@
+{
+  "name": "notinews---server",
+  "version": "1.0.0",
+  "description": "Servidor de un gestor de noticias basado en el uso de Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/solccast/noti-new"
+  },
+  "author": "Sol Angela Chilaca Castro [solccastro@gmail.com]",
+  "license": "ISC"
+}
